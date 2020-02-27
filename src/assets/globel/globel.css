@@ -1,0 +1,279 @@
+/* 自定义全局样式 start */
+/* 文本 start */
+/* 对其方式 */
+.reset_text_left {
+  text-align: left;
+}
+
+.reset_text_right {
+  text-align: right;
+}
+
+.reset_text_center  {
+  text-align: center;
+}
+
+/* 字号 */
+.reset_font_size12 {
+  font-size: 12px;
+}
+
+.reset_font_size14 {
+  font-size: 14px;
+}
+
+.reset_font_size16 {
+  font-size: 16px;
+}
+
+.reset_font_size18 {
+  font-size: 18px;
+}
+
+.reset_font_size20 {
+  font-size: 20px;
+}
+
+.reset_font_size26 {
+  font-size: 26px;
+}
+
+.reset_font_size28 {
+  font-size: 26px;
+}
+
+.reset_font_size36 {
+  font-size: 36px;
+}
+
+.reset_font_size44 {
+  font-size: 44px;
+}
+
+/* 文字格式 end */
+/* 内容色彩start */
+/* 主要的文字色彩--黑色 */
+.reset_c_black {
+  color: #303133;
+}
+
+/* 次要的文字色彩 */
+.reset_c_black_minor {
+  color: #666;
+}
+
+/* 灰色 —— 用于一些不是很重要的信息 */
+.reset_c_info {
+  color: #909399;
+}
+
+/* 背景灰色 —— 用于一些不是很重要的信息 */
+.reset_c_gray {
+  color: #f5f5f5;
+}
+
+/* 深蓝色——主要的 */
+.reset_c_deongaree {
+  color: #2c3346;
+}
+
+/*  浅蓝色——次要的——辅助色 */
+.reset_c_deongaree_minor {
+  color: #2a3668;
+}
+
+/* 橘红色———主要—主要用于金钱 */
+.reset_c_red {
+  color: #ff4400;
+}
+
+/* 红色———次要————主要用于危险警示 */
+.reset_c_red_minor {
+  color: #e34545;
+}
+
+/* 蓝色——主色 */
+.reset_c_blue {
+  color: #409eff;
+}
+
+/* 蓝色——次要 */
+.reset_c_blue_minor {
+  color: #0f76aa;
+}
+
+/* 绿色——主要——成功 */
+.reset_green {
+  color: #67c23a;
+}
+
+/* 绿色——次要 */
+.reset_green_minor {
+  color: #179b16;
+}
+
+/* 黄色——主要 */
+.reset_c_yellow {
+  color: #ffbe00;
+}
+
+/* 黄色——次要 */
+.reset_c_yellow_minor {
+  color: #e6a23c;
+}
+
+/* 内容色彩end */
+/* 主要的背景色 start */
+.reset_bj_gray {
+  background: #f5f5f5;
+}
+
+.reset_blue_minor {
+  background: #2a3668;
+}
+
+/* 主要的背景色 end */
+
+/* 自定义全局样式 end */
+
+/* layout 布局 start */
+/* 举例顶部高度 fixed布局下使用 */
+.reset_top_14{
+  top:14px;
+}
+
+.reset_top_10{
+  top:10px;
+}
+
+.reset_top_60{
+  top:60px;
+}
+
+.reset_top_70{
+  top:70px;
+}
+/* 定义细节偏移 */
+.reset_margin_left10{
+  margin-left:10px;
+}
+/* 定义控件最小宽度 */
+.reset_min_width80{
+  min-width: 80px !important;
+}
+
+.reset_min_width80{
+  min-width: 100px !important;
+}
+
+
+
+/* layout布局 end */
+/* 顶部导航 start */
+
+.reset_Sigin_bj:hover {
+  background: none;
+}
+
+/* 顶部导航 end */
+/* 左侧菜单start */
+.reset_i_Telescopic {
+  margin-top: 20px;
+  width: 24px !important;
+  height: 24px !important;
+}
+/* 左侧菜单end */
+
+/* 过度效果end */
+/* 面包屑 start */
+.reset_Crumbs .el-tabs__item{
+    height:50px;
+    line-height: 50px;
+}
+
+.reset_main .site-content > .el-tabs > .el-tabs__header{
+  top:70px;
+  box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.reset_main .site-content > .el-tabs > .el-tabs__header > .el-tabs__nav-wrap{
+ width:62%
+}
+.rest_crumbs_wrap{
+  width:55%
+}
+/* 面包屑 end */
+/* 弹窗重置 start */
+.el-dialog__header{
+  border-bottom: 1px solid #dcdfe6;
+}
+.el-dialog__footer{
+  border-top: 1px solid #dcdfe6;
+}
+.reset_query_config .el-dialog__footer{
+  border-top: 0;
+}
+/*  设置弹窗主体内容最大高度和最小高度  */
+.reset_dialog  .el-dialog__body{
+  max-height: 483px;
+  min-height: 136px;
+  overflow-y: auto;
+}
+.reset_dialog .el-form-item{
+  margin-bottom:22px !important;
+}
+/* 重置必填项颜色未红色 */
+.el-form-item.is-required .el-form-item__label:before {
+  content: '*';
+  color: #ff4400;
+  margin-right: 4px;
+}
+.el-form-item__error{
+  color: #e34545;
+}
+/* 弹窗重置 end */
+/* 库存流水start */
+/*.reset_query_config .el-form-item__label{
+  width:30%;
+  text-align: left;
+}
+.reset_query_config .el-form-item__content{
+  width:68%;
+}*/
+.reset_query_config  .el-date-editor.el-input{
+  width:100%;
+}
+.reset_query_config .el-form-item__label{
+  padding: 0;
+}
+.reset_query_config  .el-row{
+  margin-bottom:0px;
+}
+.reset_query_config  .el-form-item{
+   margin-bottom:10px;
+ }
+.reset_query_config .reset_query_wrap{
+  /* border-bottom:1px solid #dcdfe6; */
+  margin-bottom:10px;
+}
+.el-table th{
+  background: #f5f5f5;
+}
+/* 库存流水end */
+
+.el-select {
+  width: 100%;
+}
+.el-dialog__body {
+  max-height: 483px;
+  min-height: 136px;
+  overflow-y: auto;
+}
+.el-date-editor.el-input {
+  width: 100%;
+}
+
+.el-row {
+  margin-bottom: 0px;
+}
+
